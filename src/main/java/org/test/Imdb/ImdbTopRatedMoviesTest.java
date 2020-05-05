@@ -35,7 +35,7 @@ public class ImdbTopRatedMoviesTest {
         imdbTrmPage.openTopRatedMovies();
     }
 
-    //Test #4 ???number
+    //Test #4
     @Test
     public void userSeesCorrectTexts(){
         //given
@@ -77,7 +77,7 @@ public class ImdbTopRatedMoviesTest {
         softAssert.assertAll();
     }
 
-    // Test #8 ??? number
+    // Test #8
     @Test (groups = { "loggedInUser" })
     public void signedInUserCanAddMovieInItemsListToWatchlist(){
         //given
